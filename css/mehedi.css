@@ -281,6 +281,12 @@ h1{
 }
 /* stikcer part end */
 
+/* #custom-text{
+    background-color: white;
+} */
+#custom-text .content-item{
+    padding-bottom: 50px;
+}
 
 /* footer part start */
 footer nav{
