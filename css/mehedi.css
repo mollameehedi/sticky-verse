@@ -1,17 +1,212 @@
 h1{
-    font-size: 42px;
+    font-size: 62px;
+    font-weight: 700;
 }
 #home_banner{
     background: url(../images/home_bg_banner.png) center no-repeat;
     background-size: cover;
     text-align: center;
+    padding-top: 170px ;
+    padding-bottom: 70px;
 }
+
 #home_banner h1{
     color: white;
 }
 #home_banner p{
     color: white;
+    font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
 }
 #home_banner ul{
-    
+    display: flex;
+    justify-content: center;
+}
+#home_banner ul li{
+    padding: 0px 10px;
+}
+#home_banner .small-text{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#home_banner .first_p{
+    width: 50%;
+    margin: 0px auto;
+}
+/* banner  part start */
+/* banner bottom part start */
+#banner-bottom{
+    padding: 20px 0px;
+    background: white;
+}
+#banner-bottom ul li{
+    font-size: 14px;
+    color: #202020;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+#banner-bottom ul li span{
+    font-weight: 500;
+}
+#banner-bottom ul li ul li{
+    padding: 0px;
+    color: var( --theme-color);
+}
+#banner-bottom ul li ul li i{
+    color: var( --theme-color);
+}
+/* banner bottom part end */
+
+/*  custom product part start */
+#custom-product{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.custom-item{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: 550px;
+}
+
+.custom-item img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all linear 0.4s;
+}
+.custom-item:hover img{
+    transform: scale(1.1);
+}
+
+.custom-item .custom-item-content{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left:0px;
+    background:rgba(0, 0, 0, 0.16);
+    display: flex;
+    align-items: end;
+    padding: 30px;
+}
+.custom-item .custom-item-content h5{
+    color: var(--theme-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+.custom-item .custom-item-content h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+.custom-item .custom-item-content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.custom-four-itme{
+    margin-bottom: 40px;
+}
+/*  custom product part end */
+
+
+/* review part start */
+#review {
+    background-color: white;
+    padding: 40px 0px;
+}
+#review .card{
+    background-color: var(--bg-gray);
+    margin: 0px 15px;
+}
+#review .card img{
+   width: 150px;
+   padding: 10px 15px;
+   margin-right: 20px;
+}
+#review .card p{
+   text-align: left;
+   padding: 7px;
+   font-weight: 400;
+   padding-left: 0px;
+}
+#review  .m-btn{
+    background: var(--black-404);
+      color: white;
+    margin-top: 40px;
+  }
+/* review part end */
+
+
+/* paper part start */
+#paper{
+    padding: 50px 0px;
+}
+#paper .card figure{
+    text-align: center;
+}
+#paper .card figure p{
+   color: var(--black-404);
+   font-weight: 400;
+   font-size: 12px;
+   padding-top: 5px;
+}
+#paper  .m-btn{
+  background: var(--black-404);
+    color: white;
+  margin-top: 40px;
+}
+/* paper part end */
+
+/* order pages css */
+#reorder_page{
+    padding: 60px 0px;
+    height: 70vh;
+}
+#reorder_page h1{
+    font-size: 42px;
+    padding-top: 30px;
+}
+#reorder_page form{
+    text-align: center;
+    padding: 0px 50px 50px 50px;
+}
+#reorder_page form input{
+    padding: 15px 10px;
+}
+#reorder_page form h4{
+    padding: 40px;
+}
+/* material pages css */
+#meterials_banner{
+    background: url(../images/home_bg_banner.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 70px ;
+    padding-bottom: 70px;
+}
+#meterials_banner h1{
+    color: white;
+}
+#banner-bottom .header {
+    padding: 50px 0px;
+}
+
+#meterial_pages #paper .card{
+    margin-bottom: 30px;
+}
+#meterial_pages #custom-product .header{
+    padding-bottom: 50px;
+}
+#meterial_pages #custom-product{
+    padding-bottom: 80px;
+}
+#meterial_pages #custom-product .custom-item{
+ height: 500px;
 }
