@@ -191,6 +191,7 @@ h1{
     padding-top: 70px ;
     padding-bottom: 70px;
 }
+
 #meterials_banner h1{
     color: white;
 }
@@ -210,3 +211,82 @@ h1{
 #meterial_pages #custom-product .custom-item{
  height: 500px;
 }
+
+#video-part{
+    padding: 70px 0px;
+    background-color: white;
+}
+#video-part .content{
+    padding-right:60px;
+}
+#video-part .content h3{
+    font-size:38px;
+    padding-bottom: 20px;
+}
+#video-part .size-parts{
+    padding-top: 60px;
+}
+#video-part .card{
+    background-color: var(--bg-gray);
+}
+#video-part .card img{
+    width: 50px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#video-part .card .size-content p{
+    font-size: 14px;
+}
+
+/* video part start */
+#faq{
+    padding: 70px 0px;
+}
+#faq .faq-content .accordion-item{
+    background: transparent;
+    border: 0px;
+    margin: 15px 0px;
+    background: white;
+
+}
+
+#faq .faq-content .accordion-header{
+    background: transparent;
+}
+#faq .faq-content .accordion-button{
+    background: transparent;
+}
+/* video part end */
+
+
+
+/* stikcer part start */
+
+#meterial_pages #sticker{
+    padding-bottom: 70px;
+}
+
+#meterial_pages #sticker .card{
+     margin-bottom: 30px;
+}
+#meterial_pages #sticker .card figure{
+    text-align: center;
+}
+#meterial_pages #sticker .card figure p{
+   color: var(--black-404);
+   font-weight: 400;
+   font-size: 12px;
+   padding-top: 5px;
+}
+/* stikcer part end */
+
+
+/* footer part start */
+footer nav{
+    padding-top: 30px;
+}
+footer .copyright{
+    padding-bottom: 20px;
+}
+/* footer part end */
